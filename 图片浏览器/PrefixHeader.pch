@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  图片浏览器
+//
+//  Created by 冼 on 2018/4/15.
+//  Copyright © 2018年 Null. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#endif
+
+#endif /* PrefixHeader_pch */
